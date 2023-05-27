@@ -10,7 +10,7 @@ pipeline {
      REPOSITORY_TAG="${YOUR_DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
    }
    tools {
-      maven 'M3'
+      maven 'mymaven'
     }
    stages {
       stage('Preparation') {
