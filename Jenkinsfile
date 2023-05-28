@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        docker { image 'node:18.16.0-alpine' }
-    }
+    agent any
 
    environment {
      // You must set the following environment variables
