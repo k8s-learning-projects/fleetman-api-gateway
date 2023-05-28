@@ -1,5 +1,9 @@
 pipeline {
-    agent any
+    agent {
+      docker {
+        image 'python:3.7.3'
+    }
+  }
 
    environment {
      // You must set the following environment variables
