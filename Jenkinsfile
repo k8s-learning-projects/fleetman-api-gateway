@@ -11,7 +11,6 @@ pipeline {
    }
    tools {
       maven 'mymaven'
-      dockerTool 'mydocker'
     }
    stages {
       stage('Preparation') {
